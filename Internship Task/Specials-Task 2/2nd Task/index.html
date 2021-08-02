@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Clearwater Hotel Offers - Clearwater Beach Hotel Offers</title>
+</head>
+<body>
+	<img class="image" src="Images/Beach_Image.png" width=50% height=100%>
+	<div class="section-1" style="background-color: #e3e3e3;">
+		<h1>Make a Reservation</h1>
+			<div class="reservation">
+				<label for="start">Check in</label>
+				<input type="date" id="start" name="trip-start" value="Select date" min="2021-01-01" max="2021-12-31">
+			</div>
+			<div class="reservation">
+       			<label for="stop">Check out</label>
+       			<input type="date" id="stop" name="trip-stop" value="Select date" min="2021-01-01" max="2021-12-31">
+       		</div>
+       		<div class="reservation">
+       			<label for="Adults">Adults</label>
+					<select name="Adults" id="Adults">
+ 					<option value="1">1</option>
+  					<option value="2">2</option>
+  					<option value="3">3</option>
+  					<option value="4">4</option>
+					</select>
+			</div>
+			<div class="reservation">
+				<label for="Children">Children</label>
+					<select name="Children" id="Children">
+					<option value="0">0</option>
+ 					<option value="1">1</option>
+  					<option value="2">2</option>
+  					<option value="3">3</option>
+  					<option value="4">4</option>
+					</select>
+			</div>
+			<div class="reservation">
+				<label for="promo">Promo code</label>
+  				<input type="text" id="promo" name="promocode">
+  			</div>
+  			<div class="reservation">
+  				<br>
+				<button type="button" style="background-color: #007db9;color:white">Book Now</button>
+   			</div>
+	</div>
+	<div class="section-2">
+		<p>Home / Specials</p>
+	</div>
+	<div class="section-3">
+		<br><br><br>
+		<h2>Save with Our Clearwater Beach Offers</h2>
+		<p class="paragraph">You know what makes a vacation even better? Saving money on your hotel stay and spending it on fun activities. The BeachView INN offers a variety of specials and packages to enhance your stay in Clearwater Beach. Be sure to check back often, as we’re always updating our list of hotel offers.</p>
+    <h3>Available Specials:<h3>
+      <hr />
+    <div style="display:flex;">
+      <img src="Images/Children.jpg" width=200px height=200px>
+
+      <div style="margin-left: 10px">
+        <h4>Stay with us at BeachView Hotel</h4>
+        <p class="par">Contact our friendly staff directly for best rates.</p>
+
+        <button type="button" style="background-color: #007db9;color:white">Book Now</button>
+      </div>
+    </div>
+  </div>
+	<div class="row">
+  		<div class="column">
+    		<h4>SIGN UP FOR OUR NEWSLETTER</h4>
+    		<p class="para">Enter your email address below to receive periodic emails about special offers and upcoming events.</p>
+  		</div>
+  		<div class="column col">
+        <input type="email" id="email" name="email" value="Email address">
+			<button type="button" style="background-color: #008480;color:white;">Sign Up</button>
+  		</div>
+	</div>
+</body>
+</html>

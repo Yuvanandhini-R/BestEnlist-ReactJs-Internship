@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Photo Gallery</title>
+</head>
+<body>
+
+	<img class="image" src="Images/camera_person.jpg" width=100% height=100%>
+	<div class="section-1" style="background-color: #e3e3e3;">
+		<h1>Make a Reservation</h1>
+			<div class="reservation">
+				<label for="start">Check in</label>
+				<input type="date" id="start" name="trip-start" value="Select date" min="2021-01-01" max="2021-12-31">
+			</div>
+			<div class="reservation">
+       			<label for="stop">Check out</label>
+       			<input type="date" id="stop" name="trip-stop" value="Select date" min="2021-01-01" max="2021-12-31">
+       		</div>
+       		<div class="reservation">
+       			<label for="Adults">Adults</label>
+					<select name="Adults" id="Adults">
+ 					<option value="1">1</option>
+  					<option value="2">2</option>
+  					<option value="3">3</option>
+  					<option value="4">4</option>
+					</select>
+			</div>
+			<div class="reservation">
+				<label for="Children">Children</label>
+					<select name="Children" id="Children">
+					<option value="0">0</option>
+ 					<option value="1">1</option>
+  					<option value="2">2</option>
+  					<option value="3">3</option>
+  					<option value="4">4</option>
+					</select>
+			</div>
+			<div class="reservation">
+				<label for="promo">Promo code</label>
+  				<input type="text" id="promo" name="promocode">
+  			</div>
+  			<div class="reservation">
+  				<br>
+				<button type="button" style="background-color: #007db9;color:white">Book Now</button>
+   			</div>
+	</div>
+	<div class="section-2  ">
+		<p>Home / Photo Gallery</p>
+	</div>
+
+<div class="section-2" style="padding: 0px; margin: auto;">
+  <div class="gallery" style="justify-content: center;">
+    <img class="gallery_image" src="Images/img1.jpg">
+    <img class="gallery_image" src="Images/img2.jpg">
+    <img class="gallery_image" src="Images/img3.jpg">
+
+    <img class="gallery_image" src="Images/img4.jpg">
+    <img class="gallery_image" src="Images/img5.jpg">
+    <img class="gallery_image" src="Images/img6.jpg">
+
+    <img class="gallery_image" src="Images/img7.jpg">
+    <img class="gallery_image" src="Images/img8.jpg">
+    <img class="gallery_image" src="Images/img9.jpg">
+
+    <img class="gallery_image" src="Images/img10.jpg">
+    <img class="gallery_image" src="Images/img11.jpg">
+    <img class="gallery_image" src="Images/img12.jpg">
+
+    <img class="gallery_image" src="Images/img13.jpg">
+  </div>
+</div>
+
+
+	<div class="row">
+  		<div class="column">
+    		<h4>SIGN UP FOR OUR NEWSLETTER</h4>
+    		<p class="para">Enter your email address below to receive periodic emails about special offers and upcoming events.</p>
+  		</div>
+  		<div class="column col">
+    		<input type="email" id="email" name="email" value="Email address">
+			<button type="button" style="background-color: #008480;color:white;">Sign Up</button>
+  		</div>
+	</div>
+</body>
+</html>
